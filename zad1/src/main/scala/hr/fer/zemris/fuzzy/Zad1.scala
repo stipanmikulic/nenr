@@ -10,7 +10,6 @@ object Zad1 {
     Debug.print(d2, "Elementi domene d2:")
 
     val d3:IDomain = Domain.combine(d1, d2)
-    println(d3.getCardinality)
     Debug.print(d3, "Elementi domene d3:")
 
     println(d3.elementForIndex(0))
